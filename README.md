@@ -6,6 +6,6 @@
 3. 不清楚这种方式获取数据的话，Cookie的有效期能撑多久；所以我把请求包当成了一个json数据放到了外部，每分钟先读取json数据，然后重放请求包，如果有库存则通过企业微信机器人告警，没库存则静默，如果Cookie失效则通过企业微信机器人告警，重新配置参数。
 
 ### 效果
-<img src="https://github.com/Ed1s0nZ/externalC2Client/blob/main/%E9%85%8D%E7%BD%AE.png" width="500px">   
+<img src="https://github.com/Ed1s0nZ/JDInventoryMonitor/blob/main/%E6%95%88%E6%9E%9C.png" width="500px">   
 
 ### 不知道有没有其他现成的工具，或者其他办法。时间原因，我也没详细分析各个参数的用处，如果大家有更好的建议的话，请辛苦告诉我一下。
